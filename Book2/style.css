@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/*header*/
+.conteiner {
+    max-width: 1140px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.obal{
+
+    display: flex;
+    margin-bottom: 230px;
+    
+}
+
+.text{
+    margin-top: 130px;
+    width: 60%;
+}
+
+.obrazek{
+    margin-top:160px;
+    width: 40%;
+}
+
+.obrazek img{
+    width: 100%;
+}
+
+
+.nazev-knihy{
+    margin: 0 0 23px 0;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    display: block;
+}
+
+.autor{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 0 40px 0;
+    display: block;
+}
+
+.hlavni-text{
+    margin: 0 0 40px 0;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.cena-text{
+    color: #313131;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    display: block;
+    margin: 0 0 55px 0;
+}
+
+
+.btn{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 5px;
+    line-height: 27px;
+    text-decoration: none;
+    text-align: center;
+    display:inline-block
+}
+
+.modra{
+    border: 1px solid #4572d7;
+    background-color: #4572d7;
+    color: #fff;
+    background-color: #4572d7;
+    margin-right: 40px;
+    padding: 20px 65px;
+    width: 175px;
+}
+
+.bila{
+    border: 2px solid #4572d7;
+    background-color: #fff;
+    padding: 20px 75px;
+    color: #4572d7;
+}
+
+/* platba*/
+
+.platba{
+
+    border: 1px solid #ffffff;
+    background-color: #f2f2f2;
+}
+.Nadpis1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 80px;
+}
+.icon-wrap{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+.icony{
+    display: block;
+    text-align: center;  
+    width: 25%;
+      
+}
+
+.icony span{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 20px;
+    padding: 0 50px;
+
+}
+
+/* people */
+
+.people{
+ margin-top: 90px;
+ margin-bottom: 110px;
+}
+
+.people-nadpis{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 70px;
+    line-height: 27px;
+}
+
+.people-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.people-obrazky{
+    width: 23%;
+    margin-bottom: 40px;
+
+}
+
+.people-obrazky img{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:1300px){
+    
+    .icony{
+        padding: 0;
+    }
+    
+
+}
+
+@media (max-width:970px){
+
+
+    .obrazek, .text{
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .obal{
+       flex-direction: column;
+       margin-bottom: 50px;
+    }
+
+
+    .Nadpis1{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .tlacitka{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .btn{
+        max-width: 500px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    .icon-wrap{
+        flex-wrap: wrap;
+      }
+
+    .icony{
+        margin-top: 20px;
+        width: 50%;
+    }
+}
+@media (max-width:870px) {
+/* 
+    .obrazek, .text{
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .obal{
+       flex-direction: column;
+       margin-bottom: 50px;
+    } */
+/* 
+    .Nadpis1{
+        margin-top: 50px;
+    } */
+
+}
+
+@media (max-width:700px) {
+
+    .Nadpis1{
+        margin-bottom: 30px;
+    }
+    .icon-wrap{
+        margin-bottom: 40px;
+
+    } 
+    .icony{
+        width: 100%;
+       margin-top: 40px;
+      
+    }
+
+    .people{
+        margin-top: 40px;
+    }
+
+}
+
